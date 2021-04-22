@@ -2,3 +2,4 @@ package-lock.json
 elm-stuff/
 dist/
 node_modules/
+.cache/
