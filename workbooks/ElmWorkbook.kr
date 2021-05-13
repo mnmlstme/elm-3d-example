@@ -1,0 +1,27 @@
+---
+platform: elm
+imports:
+  - Block3d
+  - Point3d
+model:
+  count: 0
+  tenth: 0.1
+  hello: Hello, world
+---
+# Elm in 3D
+
+We can build up 3D forms using Elm and render them in a WebGL scene.
+
+```
+Block3d.from
+    (Point3d.meters -0.3 0 0.2)
+    (Point3d.meters 0.3 0.01 0.4)
+```
+
+We can put lots of examples in the same file like this...
+
+```
+Block3d.from
+    (Point3d.meters -0.3 1 0.2)
+    (Point3d.meters 0.3 1.01 0.4)
+```
